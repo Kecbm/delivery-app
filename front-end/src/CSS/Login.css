@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: url('../images/Background.png');
+}
+
+#logo {
+  margin-top: 38px;
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 500px;
+  height: 140px;
+}
+
+#section {
+  background-color: #ffc900;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 50%;
+  margin-right: 50%;
+  border-radius: 5px;
+  height: 300px;
+  width: 450px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: #19191a;
+  padding: 15px 52px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 260px;
+  font-family: 'Open Sans';
+}
+
+.button:hover {
+  font-weight: bold;
+  border: 1px solid #b04f1b;
+}
+
+.secondButton {
+  background-color: #b04f1b;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 11px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 363px;
+  font-family: 'Bebas Neue';
+}
+
+.secondButton:hover {
+  background-color: #f08e23;
+  color: #19191a;
+  border: 1px solid #8B4513;
+}
+
+#alert {
+  font-family: 'Bebas Neue';
+  font-size: 25px;
+  background-color: red;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 11px 22px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 4px 2px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 363px;
+}

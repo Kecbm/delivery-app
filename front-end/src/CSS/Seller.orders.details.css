@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+#sellerDetails {
+  position: relative;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  padding: 80px;
+}
+
+#div {
+  color: #000;
+}
+
+#h1Seller {
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+  color: #19191a;
+  margin-bottom: 5px;
+}
+
+#sectionSeller {
+  border: 2px solid #19191a;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  color: #19191a;
+}
+
+
+#Pendente {
+  font-family: 'Bebas Neue';
+  background-color: #ffc900;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#Preparando {
+  font-family: 'Bebas Neue';
+  background-color: #f08e23;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#Em-Trânsito {
+  font-family: 'Bebas Neue';
+  background-color: #b04f1b;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#Entregue {
+  font-family: 'Bebas Neue';
+  background-color: #8B4513;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#buttonSeller {
+  font-family: 'Bebas Neue';
+  font-size: 30px;
+  color: white;
+  border: transparent;
+  background-color: #8B4513;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+
+#tableSeller {
+  border-left: 2px solid #19191a;
+  border-right: 2px solid #19191a;
+  border-bottom: 2px solid #19191a;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  width: 1224px;
+}
+
+#theadSeller {
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+}
+
+#tbodySeller {
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+#numberSeller {
+  border: 2px solid transparent;
+  padding: 2px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #ffc900;
+  color: #19191a;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+}
+
+#nameSeller {
+  width: 670px;
+  background-color: white;
+}
+
+#quantitySeller {
+  width: 110px;
+  background-color: #f08e23;
+  text-align: center;
+}
+
+#priceSellerDetails {
+  width: 120px;
+  background-color: #b04f1b;
+  text-align: center;
+}
+
+#subTotalSeller {
+  width: 100px;
+  background-color: #8B4513;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#totalPriceSellerDetails {
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  color: #19191a;
+  background-color: #f08e23;
+  margin-left: 79%;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  width: 10%;
+  height: 100%;
+}
+
+#totalPriceSellerDetails:hover {
+  color: white;
+  background-color: #8B4513;
+}

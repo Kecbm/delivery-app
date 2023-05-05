@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400&display=swap');
+
+#statusOrder {
+  border: 2px solid #19191a;
+  padding: 10px;
+  border-radius: 5px;
+  width: 1200px;
+}
+
+#thead {
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+}
+
+#tbody {
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+#number {
+  border: 2px solid transparent;
+  padding: 2px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: #ffc900;
+  color: #19191a;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+}
+
+#elementName {
+  width: 670px;
+  background-color: white;
+}
+
+#elementQuantity {
+  width: 110px;
+  background-color: #f08e23;
+  text-align: center;
+}
+
+#elementPrice {
+  width: 120px;
+  background-color: #b04f1b;
+  text-align: center;
+}
+
+#subTotal {
+  width: 100px;
+  background-color: #8B4513;
+  text-align: center;
+}
+
+#buttonLine {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #8B0000;
+  text-align: center;
+  width: 150px;
+}
+
+#buttonLine:hover {
+  background-color: red;
+}
+
+#buttonCheckout {
+  border: 2px solid transparent;
+  padding: 2px;
+  background-color: #8B0000;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+#buttonCheckout:hover {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+#totalPrice {
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  color: #19191a;
+  background-color: #f08e23;
+  margin-left: 930px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#totalPrice:hover {
+  color: white;
+  background-color: #8B4513;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+.products {
+  position: relative;
+  top: 40px;
+  height: 1300px;
+  width: 100%;
+  padding: 80px;
+}
+
+#divCheckout {
+  position: relative;
+  top: 0px;
+  left: 90%;
+  z-index: 1;
+}
+
+.buttonCheckout {
+  color: black;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  background-color: #8B4513;
+  border: none;
+  color: #19191a;
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 70px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 100px;
+  font-family: 'Bebas Neue';
+}
+
+.buttonCheckout:hover {
+  color: white;
+}

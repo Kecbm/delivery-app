@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+.mainCheckout {
+  position: relative;
+  top: 40px;
+  height: 430px;
+  width: 100%;
+  padding: 80px;
+}
+
+#h1Checkout {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+#h2Checkout {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#secondSection {
+  border: 2px solid #19191a;
+  padding: 10px;
+  border-radius: 5px;
+  width: 1200px;
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+.inputCheckout {
+  width: 210px;
+  height: 30px;
+  margin-right: 60px;
+  margin-left: 5px;
+  font-family: 'Open Sans';
+}
+
+#customerCheckout {
+  margin-top: 5px;
+  text-align: center;
+  border: 2px solid transparent;
+  padding: 2px;
+  background-color: #f08e23;
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#customerCheckout:hover {
+  color: white;
+  background-color: #8B4513;
+}

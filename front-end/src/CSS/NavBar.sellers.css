@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400&display=swap');
+
+.headerSeler {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  margin-top: 0;
+}
+
+#div {
+  color: black;
+}
+
+.productsSeller {
+  background-color: #f08e23;
+  border: none;
+  color: #19191a;
+  padding: 15px 52px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  cursor: pointer;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 381px;
+  height: 80px;
+  font-family: 'Bebas Neue';
+}
+
+.productsSeller:hover {
+  font-weight: bold;
+  border: 1px solid #19191a;
+  color: white;
+}
+
+.userSeller {
+  background-color: #b04f1b;
+  border: none;
+  color: #19191a;
+  padding: 15px 52px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  cursor: pointer;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 785px;
+  height: 80px;
+  font-family: 'Bebas Neue';
+}
+
+.userSeller:hover {
+  font-weight: bold;
+  border: 1px solid #19191a;
+  color: white;
+}
+
+.logoutSeller {
+  background-color: #8B4513;
+  border: none;
+  color: #19191a;
+  padding: 15px 52px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+  cursor: pointer;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 200px;
+  height: 80px;
+  font-family: 'Bebas Neue';
+}
+
+.logoutSeller:hover {
+  font-weight: bold;
+  border: 1px solid #19191a;
+  color: white;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400&display=swap');
+
+/* #loading {
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  color: #19191a;
+  margin-top: 200px;
+} */
+
+#div {
+  color: red;
+}
+
+#itemButton {
+  border: transparent;
+  margin-right: 15px;
+  margin-bottom: 25px;
+  width: 600px;
+  height: 100px;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  background-color: white;
+}
+
+#itemId {
+  position: relative;
+  right: 250px;
+  top: 30px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+/*
+- `Pendente`
+- `Preparando`
+- `Em-Trânsito`
+- `Entregue`
+*/
+
+.Pendente {
+  position: relative;
+  bottom: 17px;
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  background-color: #ffc900;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.Preparando {
+  position: relative;
+  bottom: 17px;
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  background-color: #f08e23;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.Em-Trânsito {
+  position: relative;
+  bottom: 17px;
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  background-color: #b04f1b;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.Entregue {
+  position: relative;
+  bottom: 17px;
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  background-color: #8B4513;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+#itemDate {
+  position: relative;
+  left: 240px;
+  bottom: 95px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+#itemPrice {
+  position: relative;
+  left: 265px;
+  bottom: 64px;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
